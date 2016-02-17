@@ -23,7 +23,8 @@
   |<br/>
 
 ## 命名规范
-  所有的img、js、css 文件 都以自己姓名缩写为前缀如   hnz_index.css  
+  所有的img、js、css 文件 都以自己姓名缩写为前缀如   hnz_index.css 
+  多人开发同一个页面，css选择器请加自己姓名缩写前缀防止冲突
   注意： 统一采用下划线     hnz_index.css 
 
 ## 网页采用bootstrap框架
