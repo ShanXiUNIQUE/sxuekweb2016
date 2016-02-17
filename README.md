@@ -13,7 +13,7 @@
 /-------------------<br/>
   |--- images/  所有图片<br/>
   |<br/>
-  |--- js/      库 jquery.2.0.min.js   js文件<br/>
+  |--- js/      库 jquery-2.0.3.min.js   js文件<br/>
   |<br/>
   |--- css/     基础样式 public.css  bootstrap.css   css文件<br/>
   |<br/>
