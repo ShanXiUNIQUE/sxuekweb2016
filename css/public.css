@@ -1,0 +1,13 @@
+body,ul,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,p,input{
+	margin: 0;
+	list-style: none;
+}
+b{
+	font-weight: normal;
+}
+i{
+	text-decoration: none;
+}
+*{
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
