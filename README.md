@@ -26,7 +26,7 @@
 ####命名规范
   所有的img、js、css 文件 都以自己姓名缩写为前缀如   hnz_index.css <br/>
   多人开发同一个页面，css选择器请加自己姓名缩写前缀防止冲突<br/>
-  图片，选择器 均采用 类似 hnz-logo-max.jpg方式命名<br/>
+  图片，选择器 名称命名均采用类似 hnz-logo-max.jpg   .hnz-max-nav方式命名<br/>
   注意： 统一采用下划线     hnz_index.css <br/>
 ####注释问题
   开发过程中,请加好注释说明，方便后台人员套模板<br/>
