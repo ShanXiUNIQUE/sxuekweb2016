@@ -26,7 +26,8 @@
   所有的img、js、css 文件 都以自己姓名缩写为前缀如   hnz_index.css  
   注意： 统一采用下划线     hnz_index.css 
 
-## 网页采用bootstarp框架
+## 网页采用bootstrap框架
+  采用bootstrap定制版，其中只包含栅格部分
   col-lg-*   <br/>
   col-xs-*   <br/>
 
