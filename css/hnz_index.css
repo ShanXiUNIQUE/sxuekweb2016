@@ -242,7 +242,7 @@
 	height: 100%;
 }
 /*banner 结束*/
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 640px) {
 	.max-nav{
 		display: block;
 	}
@@ -267,7 +267,7 @@
 	}
 	
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 640px) {
 	.max-nav{
 		display: none;
 	}
