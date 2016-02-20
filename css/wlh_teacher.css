@@ -1,12 +1,4 @@
-body,h1,h2,h3,h4,h5,h6,p,ul,li,ol,dl{
-	margin:0px;
-	padding:0px;
-	list-style: none;
-}
-a{
-	color:#333;
-	text-decoration: none;
-}
+
 
 html,body{
 	background: #f0f1f5;
@@ -14,11 +6,11 @@ html,body{
 /*标题部分*/
 .wlh-tilte{
 	border-bottom: 1px solid #d8d8d8;
-	margin-bottom: 60px;
 }
 .wlh-imgbox{
 	position: relative;
 }
+
 .wlh-blue{
 	width: 83px;
 	height: 4px;
@@ -30,11 +22,37 @@ html,body{
 }
 
 /*名师风采部分*/
+.wlh-msfc{
+	width: 100%;
+	height: auto;
+	position: relative;
+	padding-bottom: 270px;
+}
+.wlh-msfc-bg1{
+	width: 600px;
+	height: 498px;
+	background-image: url(../images/wlh-bg1.png);
+	background-size: 100% 100%;
+	position: absolute;
+	right: 5px;
+	top:100px;
+}
+.wlh-msfc-bg2{
+	width: 600px;
+	height: 498px;
+	background-image: url(../images/wlh-bg2.png);
+	background-size: 100% 100%;
+	position: absolute;
+	left: 5px;
+	bottom:10px;
+}
+.wlh-width{
+	margin-top: 60px;
+}
 .wlh-teacher{
 	height:auto;
-	border:1px solid red;
 	font-family: "微软雅黑";
-	margin-bottom:20px;
+	margin-bottom:20px;	
 }
 /*一级*/
 .wlh-teacher-yiji{
@@ -127,7 +145,7 @@ html,body{
 	top:-5px;
 	background: #fff;
     display: none;
-
+    z-index: 1;
 }
 .wlh-blank{
 	position: absolute;
@@ -143,6 +161,23 @@ html,body{
 }
 
 @media screen and (max-width: 640px){
+	.wlh-imgbox img{
+		width: 70%;
+		height: 70%;
+	}
+	.wlh-width{
+		margin-top: 20px;
+	}
+    .wlh-msfc{
+		padding-bottom: 50px;
+	}
+	.wlh-msfc-bg1{
+		display: none;
+	}
+	.wlh-msfc-bg2{
+		display:none;
+	}
+
 	.wlh-teacher-erji-jieshao{
 	   height: auto;
 	   padding:10px 20px;
