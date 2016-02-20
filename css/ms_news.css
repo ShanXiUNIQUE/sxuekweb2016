@@ -1,0 +1,168 @@
+body{
+	height:2000px;
+	background: #ccc;
+}
+@media screen and (max-width:750px ) {
+	 
+}
+.container{
+	position:relative;
+	margin:-30px auto;
+	margin-bottom: 0px;
+	background: #fff;
+}
+.ms-the-first{
+	border-bottom:1px solid #D8D8D8;
+}
+.ms-shadow{
+	width: 30px;
+	position:absolute;
+	left:-30px;
+	top:30px;
+}
+.ms-shadows{
+	width: 30px;
+	height:auto;
+	position:absolute;
+	right:-30px;
+	top:30px;
+}
+
+.ms-lis{
+	width:70%;
+	margin:0 auto;
+	text-align: center;
+	margin-top: 30px;
+	padding:10px 0;
+}
+.ms-lis p{
+	font-size: 30px;
+	font-family:  "微软雅黑";
+}
+.ms-lis span{
+	font-family: "微软雅黑";
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.ms-lis-select{
+	border-bottom:5px solid #2DA4FF;
+}
+/*内容开始*/
+.ms-row-two{
+	padding:30px 20px;
+}
+
+
+
+
+
+
+
+
+.ms-zhang-h1{
+	padding: 10px 0;
+	font-size: 30px;
+}
+
+.ms-zhang-lis{
+	text-align: center;
+	width:100%;
+}
+.ms-zhang-lis img{
+	width:100%;
+}
+.ms-zhang-title{
+	width:100%;
+	padding:10px 0px;
+	font-size: 14px;
+	color:#51585D;
+	letter-spacing: 0px;
+	line-height:1.5;
+}
+.ms-more{
+	width:120px;
+	height:30px;
+	display: inline-block;
+	margin:20px 0;
+}
+.ms-more a{
+	display:block;
+	width:100%;
+	height: 100%;
+}
+.ms-show-more{
+	width:90px;
+	height:100%;
+	float: left;
+	box-sizing: border-box;
+	border:1px solid #EBEBEB;
+	line-height: 30px;
+}
+.ms-show-more span:first-child{
+	color: #AFAEAE;
+	
+}
+.ms-show-more span:last-child{
+	color: #C3C2C2;
+	
+}
+.ms-add{
+	width:30px;
+	height:100%;
+	float: left;
+	background: #FC3B16;
+	line-height: 30px;
+	font-size: 16px;
+	color:#fff;
+}
+/*右边开始*/
+.ms-right-lis{
+	width: 100%;
+	height:auto;
+}
+.ms-right-lis img{
+	width: 100%;
+}
+.ms-zhang-h5{
+	font-size:20px;
+	padding:10px 0 0 0;
+}
+@media screen and (max-width:750px ) {
+	.hidden-xs{
+		display: none;
+	}
+	.ms-lis {
+		width:100%;
+	}
+	.ms-lis p{
+	font-size: 18px;
+	letter-spacing: 0px;
+}
+.ms-lis span{
+	font-family: "微软雅黑";
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+}
+.ms-zhang-h1{
+	font-size: 18px;
+}
+}	    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
