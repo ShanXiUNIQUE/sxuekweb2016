@@ -1,12 +1,14 @@
 body{
 	background:#ececec;
 }
-
 .wq-topimg img{
     width:100%;
+
 }
 .wq-mainbg{
    background:url(../images/wq-mainbg.jpg);
+   position: relative;
+   top:-75px;
 }
 .wq-fl{
 	width:100%;text-align:center;
@@ -23,6 +25,8 @@ body{
 	height:70px;font-size: 14px;line-height:23px;
 }
 .wq-more{
+	display: block;
+	color:#5a5a5a;
 	width:72px;height:19px;border:1px solid #bfbfbf;margin:0 auto;text-align:center;
 	line-height: 17px;font-size: 12px;cursor: pointer;border-radius:5px;background:#f4f4f4;
 }
@@ -70,7 +74,7 @@ body{
 	background:url(../images/wq-title-xs.jpg) no-repeat center;
     }
      .wq-imgbox img{
-	width:289px;height:294px;
+	 width:100%;
      }
        .wq-img-container{
 	margin-top:50px;
@@ -86,7 +90,7 @@ body{
 	}
 	.wq-title{
 	width:100%;height:170px;
-	background:url(../images/wq-title.png) no-repeat center #fff;
+	background:url(../images/wq-title.jpg) no-repeat center #fff;
     }
     .wq-imgbox img{
 	width:365px;height:376px;
