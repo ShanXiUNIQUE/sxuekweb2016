@@ -1,4 +1,4 @@
-$(function(){
+$(document).ready(function(){
 	var wlh_yiji=$(".wlh-teacher-yiji");
 	var wlh_hover=$(".wlh-teacher-hover");
 	var wlh_erji=$(".wlh-teacher-erji");
@@ -17,56 +17,59 @@ $(function(){
 
     //单击之前，记录一下位置
     var wlh_col=0;
+    var wlh_row=0;
     wlh_yiji.each(function(index,obj){
     	if(wlh_col>5){
     		wlh_col=0;
+    		wlh_row++;
     	}
-    	this.wei=wlh_col;
+    	this.y=wlh_col; 
+    	this.x=wlh_row; 	
     	wlh_col++;
     })
     
-    var flag=true;  
+
+    var flag=true; 
+     
 	wlh_yiji.click(function(){
-		var index=$(this).index(".wlh-teacher-yiji");  
-		     		
-        if($(window).width()>640){
+		var index=$(this).index(".wlh-teacher-yiji"); 
+		var x=this.x; 
         	if(flag){
 				wlh_hover.eq(index).css({display:"block",width:wlh_w+10+"px",height:wlh_h1+wlh_h2+20+"px","box-shadow":"0px 0px 5px rgba(0,0,0,0.5)"});
 
-	            wlh_erji.eq(index).css({width:$(".wlh-width").width()-15+"px",height:"auto","box-shadow":"0px 0px 5px rgba(0,0,0,0.5)",left:this.wei*-1*$(".wlh-teacher").outerWidth()+-5+"px",top:wlh_h1+wlh_h2+10+"px"});
+	            wlh_erji.eq(index).css({width:1180+"px","box-shadow":"0px 0px 5px rgba(0,0,0,0.5)",left:this.y*-1*$(".wlh-teacher").outerWidth()+-5+"px",top:wlh_h1+wlh_h2+10+"px"}).animate({height:"794px"},1000);
 	            wlh_blank.eq(index).css({width:wlh_w+10+"px",display:"block"})
-	            $(".wlh-teacher").eq(index).css({height:wlh_h1+wlh_h2+20+wlh_erji.eq(index).outerHeight()+"px"})
+	            $(".wlh-teacher").eq(index).css({height:"1051px"});
+	            
+	            wlh_yiji.each(function(i,obj){
+                     if(this.x==x){
+                     	$(this).parents(".wlh-teacher").css({height:"1051px"});
+                     }
+	            })
+                             
 	            flag=false;
-
+                
 			}else{
-				wlh_hover.eq(index).css({display:"none"});
-	            wlh_erji.eq(index).css({height:"0px"});
-	            wlh_blank.eq(index).css({display:"none"});
-	            $(".wlh-teacher").eq(index).css({height:"auto"})
+				
+	            wlh_erji.eq(index).animate({height:"0px"},1000,function(){wlh_hover.eq(index).css({display:"none"});
+	            	$(".wlh-teacher").eq(index).css({height:"242px"});
+	            	wlh_blank.eq(index).css({display:"none"});
+	            	wlh_yiji.each(function(i,obj){
+	                     if(this.x==x){
+	                     	$(this).parents(".wlh-teacher").css({height:"242px"});
+	                     }
+		            })
+	            });
+
+	            
+
 	            flag=true;
 			}
-        }else{
-        	if(flag){
-				wlh_hover.eq(index).css({display:"block",width:wlh_w+10+"px",height:wlh_h1+wlh_h2+20+"px","box-shadow":"0px 0px 5px rgba(0,0,0,0.5)"});
-				if(index%2==0){
-					wlh_erji.eq(index).css({width:$(".wlh-width").width()-15+"px",height:"auto","box-shadow":"0px 0px 5px rgba(0,0,0,0.5)",left:-5+"px",top:wlh_h1+wlh_h2+10+"px"});
-				}else{
-					wlh_erji.eq(index).css({width:$(".wlh-width").width()-15+"px",height:"auto","box-shadow":"0px 0px 5px rgba(0,0,0,0.5)",left:-1*$(".wlh-teacher").outerWidth()+-5+"px",top:wlh_h1+wlh_h2+10+"px"});
-				}
-	           
-	            wlh_blank.eq(index).css({width:wlh_w+10+"px",display:"block"})
-	            $(".wlh-teacher").eq(index).css({height:wlh_h1+wlh_h2+20+wlh_erji.eq(index).outerHeight()+"px"})
-	            flag=false;
-
-			}else{
-				wlh_hover.eq(index).css({display:"none"});
-	            wlh_erji.eq(index).css({height:"0px"});
-	            wlh_blank.eq(index).css({display:"none"});
-	            $(".wlh-teacher").eq(index).css({height:"auto"})
-	            flag=true;
-			}
-        }
-		
-       
+              
 	})
+
+
+    /*touch.on('.wlh-teacher-yiji', 'tab', function(ev){
+	    console.log("you have done", ev.type);
+	})*/
 })
