@@ -8,12 +8,6 @@ $(document).ready(function(){
     var wlh_w=$(".wlh-teacher-yiji-innerbox").eq(0).innerWidth();
 	var wlh_h1=$(".wlh-teacher-yiji-innerbox").eq(0).innerHeight();
 	var wlh_h2=$(".wlh-teacher-yiji-word").eq(0).innerHeight();
-    $(window).resize(function(){
-    	wlh_w=$(".wlh-teacher-yiji-innerbox").eq(0).innerWidth();
-		wlh_h1=$(".wlh-teacher-yiji-innerbox").eq(0).innerHeight();
-		wlh_h2=$(".wlh-teacher-yiji-word").eq(0).innerHeight();
-    })
-		
 
     //单击之前，记录一下位置
     var wlh_col=0;
@@ -27,9 +21,20 @@ $(document).ready(function(){
     	this.x=wlh_row; 	
     	wlh_col++;
     })
+
+	var flag=true; 
+    $(window).resize(function(){
+    	wlh_w=$(".wlh-teacher-yiji-innerbox").eq(0).innerWidth();
+		wlh_h1=$(".wlh-teacher-yiji-innerbox").eq(0).innerHeight();
+		wlh_h2=$(".wlh-teacher-yiji-word").eq(0).innerHeight();		
+    })
+		
+
+    
     
 
-    var flag=true; 
+    
+    
     if($(window).width()>768){
 
         wlh_yiji.click(function(){
@@ -60,20 +65,17 @@ $(document).ready(function(){
 		                     	$(this).parents(".wlh-teacher").css({height:"242px"});
 		                     }
 			            })
-		            });
-
-		            
-
+		            });         
 		            flag=true;
 				}
 	              
 		})
 
     }
+    
+
+    
 	
 
 
-    /*touch.on('.wlh-teacher-yiji', 'tab', function(ev){
-	    console.log("you have done", ev.type);
-	})*/
 })
