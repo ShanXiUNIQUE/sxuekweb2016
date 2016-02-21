@@ -1,0 +1,42 @@
+.ms-zhang-header{
+	width:80%;
+	height:auto;
+	border-bottom:1px dotted #C6CED5;  
+}
+.ms-zhang-header h1{
+	width: 100%;
+	font-size: 30px;
+}
+.ms-zhang-header .ms-time{
+	width: 100%;
+	padding:10px 0;
+}
+.ms-dian{
+	width:10px;
+	height:10px;
+	border-radius: 50%;
+	display: inline-block;
+	background: #F29543;
+	margin: 0 10px;
+}
+.ms-zhang-contain{
+	width:100%;
+}
+.ms-zhang-contain img{
+	width: 100%;
+	padding: 20px 0;
+}
+.ms-zhang-wen{
+	width:100%;
+	padding:20px 0;
+}
+
+.ms-zhang-lis{
+	text-align: left;
+}
+@media screen and (max-width:750px ) {
+	.ms-zhang-header h1{
+		font-size: 18px;
+	}
+}
+
