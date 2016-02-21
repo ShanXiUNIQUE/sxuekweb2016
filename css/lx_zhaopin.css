@@ -1,0 +1,142 @@
+body{
+    background:#f7f7f7;
+}
+img{
+    vertical-align: inherit;
+}
+
+a:hover{
+    text-decoration:none;
+}
+.lx_tab img{
+    width:100%;
+}
+/* 标题开始 */
+.lx_head{
+    width:100%;
+    height:100px;
+    background: #f7f7ff;
+    color:#3a3838;
+    margin-top: 98px;
+    margin-bottom: 80px;
+    padding-top:20px;
+    text-align: center;
+    border-bottom: 1px solid #d8d8d8;
+}
+.lx_head a{
+    color:#3a3838;
+    display: block;
+}
+.lx_title{
+    font-size: 30px;
+    cursor: pointer;
+    height: 42px;
+    overflow: hidden;
+}
+.lx_title1{
+    font-size: 16px;
+    cursor: pointer;
+    overflow: hidden;
+    height: 22px;
+}
+.lx_hot{
+    width:80%;
+    height:4px;
+    background:rgba(38,139,238,0.7);
+    margin:14px auto 0;
+
+}
+/* 标题结束 */
+/* tab选项卡 开始 */
+.lx_tab{
+    width:100%;
+    height:auto;
+    position: relative;
+}
+
+/* lx_page1 开始*/
+.lx_page1{
+    width:100%;
+    height:auto;
+
+}
+
+.lx_row{
+    margin-bottom: 10px;
+}
+.lx_int_r{
+    border-right:1px solid #a6a6a6;
+}
+.lx_int_l{
+    border-left:1px solid #a6a6a6;
+}
+.lx_data{
+    border-bottom:1px dashed #a6a6a6;
+    color:#888888;
+    overflow: hidden;
+}
+.lx_data .lx_month{
+    font-size: 48px;
+    float: left;
+}
+.lx_data .lx_year{
+    font-size: 20px;
+    float: right;
+    margin-top: 35px;
+}
+.lx_company{
+    font-size: 20px;
+    color:#444444;
+    height: 40px;
+    line-height: 40px;
+}
+.lx_introduce{
+    font-size: 14px;
+    color:#444444;
+    height: 60px;
+    padding:20px 0;
+    overflow: hidden;
+}
+.lx_int a{
+    display: block;
+    width:90px;
+    height:60px;
+    margin:32px auto 0;
+    font-size: 18px;
+    color:#575555;
+    border:1px solid #b5b5b5;
+    text-align: center;
+    line-height: 30px;
+}
+/* tab选项卡 结束*/
+@media all and (max-width:768px){
+    /* lx_head 高度 */
+    .lx_head{
+        height:80px;
+    }
+    /*  lx_head 标题字体大小 */
+    .lx_title{
+        font-size:18px;
+        height: 30px;
+    }
+    .lx_title1{
+        font-size: 12px;
+        height: 14px;
+    }
+    /* 每一行的边框 */
+    .lx_int_r{
+        border-right:none;
+    }
+    .lx_int_l{
+        border-left:none;
+    }
+    .lx_int a{
+        margin-bottom: 10px;
+    }
+}
+.footer{
+    width:100%;
+    height:100px;
+    background: red;
+
+}

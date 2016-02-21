@@ -1,0 +1,216 @@
+body{
+    background:#f7f7f7;
+}
+img{
+    vertical-align: inherit;
+}
+a:hover{
+    text-decoration:none;
+}
+/* 标题开始 */
+.lx_head{
+    width:100%;
+    height:100px;
+    background: #f7f7ff;
+    color:#3a3838;
+    margin-top: 98px;
+    margin-bottom: 80px;
+    padding-top:20px;
+    text-align: center;
+    border-bottom: 1px solid #d8d8d8;
+}
+.lx_head a{
+    color:#3a3838;
+}
+.lx_title{
+    font-size: 30px;
+    overflow: hidden;
+}
+.lx_title1{
+    font-size: 16px;
+    overflow: hidden;
+}
+.lx_hot{
+    width:80%;
+    height:4px;
+    background:rgba(38,139,238,0.7);
+    margin:14px auto 0;
+
+}
+/* 标题结束 */
+/* tab选项卡 开始 */
+.lx_tab{
+    width:100%;
+    height:auto;
+    position: relative;
+}
+
+/* lx_page1 开始*/
+.lx_page1{
+    width:100%;
+    height:auto;
+
+}
+.lx_page1 a{
+    display: block;
+}
+.lx_student{
+    margin-bottom: 30px;
+}
+.mask{
+    width:100%;
+    height:100%;
+    background: rgba(0,0,0,0.2);
+    position: absolute;
+    left:0;
+    top:0;
+}
+.lx_student a{
+    width:100%;
+    height: 413px;
+    padding:10px 10px 0;
+    background:#ffffff;
+    /*box-shadow:0 0 5px #B9B9B9 ;*/
+    /*border-bottom:3px solid #459bfd;*/
+}
+.lx_student a:active {
+    box-shadow:0 0 5px #B9B9B9 ;
+    border-bottom:3px solid #459bfd;
+}
+.lx_student a:active .lx_student_introduce{
+    background:none;
+}
+.lx_student img{
+    width:100%;
+    display: block;
+    margin:0 auto;
+}
+.lx_student_introduce{
+    background:#f7f7f7;
+    height:auto;
+    padding: 10px;
+}
+.lx_introduce_top{
+   height:auto;
+   overflow: hidden;
+
+}
+.lx_student_left{
+    float: left;
+}
+.lx_student_left .lx_student_name{
+    font-size: 24px;
+    color:#565656;
+}
+.lx_student_left .lx_student_direction{
+    font-size: 14px;
+    color:#8d8d8d;
+}
+.lx_student_salary{
+    float: right;
+    margin-top:20px;
+    color:#357dcf;
+    font-size: 28px;
+}
+.lx_introduce_bottom{
+    color:#616161;
+    font-size:12px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+
+}
+.lx_pageTurn{
+    width:50%;
+    margin: 30px auto;
+    height:29px;
+
+}
+.lx_pageTurn1{
+    display: none;
+}
+.lx_pageTurn a{
+    display: inline-block;
+    width:34px;
+    height:29px;
+    border:1px solid #c6cdd5;
+    text-align: center;
+    line-height:29px;
+    color:#383d3f;
+    font-size: 14px;
+    vertical-align: top;
+    margin-right: 6px;
+}
+.lx_pageTurn a:first-child,.lx_pageTurn a:last-child{
+    border:none;
+    width:70px;
+}
+.lx_pageTurn .lx_pageNow{
+    border:1px solid #f57813;
+}
+/* lx_page1 结束*/
+@media all and (max-width:768px){
+    /* lx_head 高度 */
+    .lx_head{
+        height:80px;
+    }
+    /*  lx_head 标题字体大小 */
+    .lx_title{
+        font-size:18px;
+        height: 30px;
+    }
+    .lx_title1{
+        font-size: 12px;
+        height: 14px;
+    }
+    /*学院*/
+    .lx_student a{
+        height:370px;
+        overflow: hidden;
+    }
+    .lx_student_left .lx_student_name{
+        font-size: 16px;
+    }
+    .lx_student_left .lx_student_direction{
+        font-size: 10px;
+        color:#8d8d8d;
+    }
+    .lx_student_salary{
+        font-size: 14px;
+    }
+    .lx_student_work{
+        font-size: 14px;
+    }
+    .lx_student_company{
+        font-size: 12px;
+
+    }
+    /*翻页*/
+    .lx_pageTurn{
+        display: none;
+    }
+    .lx_pageTurn1{
+        width:50%;
+        margin: 30px auto;
+        height:29px;
+        display: block;
+    }
+    .lx_pageTurn1 a{
+        display: inline-block;
+        width:10px;
+        height:10px;
+        margin-right: 10px;
+        border-radius: 50%;
+        background:#BEBEBE;
+    }
+    .lx_pageTurn1 .lx_pageNow{
+        background:#2B6AF9;
+    }
+}
+/* tab选项卡 结束*/
+
+.footer{
+    width:100%;
+    height:100px;
+    background: red;
+
+}
