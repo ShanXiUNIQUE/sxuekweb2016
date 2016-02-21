@@ -34,6 +34,9 @@
 .ms-zhang-lis{
 	text-align: left;
 }
+.ms-video{
+	width:100%;
+}
 @media screen and (max-width:750px ) {
 	.ms-zhang-header h1{
 		font-size: 18px;
