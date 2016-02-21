@@ -5,9 +5,9 @@ body{
 @media screen and (max-width:750px ) {
 	 
 }
-.container{
+.ms-container{
 	position:relative;
-	margin:-30px auto;
+	margin:-75px auto;
 	margin-bottom: 0px;
 	background: #fff;
 }
@@ -18,14 +18,14 @@ body{
 	width: 30px;
 	position:absolute;
 	left:-30px;
-	top:30px;
+	top:75px;
 }
 .ms-shadows{
 	width: 30px;
 	height:auto;
 	position:absolute;
 	right:-30px;
-	top:30px;
+	top:75px;
 }
 
 .ms-lis{
@@ -127,7 +127,7 @@ body{
 	font-size:20px;
 	padding:10px 0 0 0;
 }
-@media screen and (max-width:750px ) {
+@media screen and (max-width:768px ) {
 	.hidden-xs{
 		display: none;
 	}
