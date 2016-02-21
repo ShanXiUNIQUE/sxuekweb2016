@@ -46,7 +46,10 @@ body{
 	line-height: 88px;
 }
 .nav-list .nav-hot,.nav-list li:hover{
-	background: url(../images/hnz-nav-bg.jpg) no-repeat 0 center;
+	background:#4498fe;
+	line-height: 85px;
+	border-bottom:1px solid #fff;
+	/*background: url(../images/hnz-nav-bg.jpg) no-repeat 0 center;*/
 }
 .nav-list li:hover .nav-over,.nav-list .nav-hot .nav-over{
 	visibility: visible;
@@ -158,7 +161,7 @@ body{
 .min-nav-btn{
 	height: 100%;
 	line-height: 0;
-	padding:0 16px;
+	padding:0 6px;
 	text-align: justify;
 }
 .min-nav-btn:after{
@@ -176,18 +179,19 @@ body{
 	vertical-align: top;
 }
 .min-nav-btn .min-nav-more{
-	/*margin:18px 0;*/
-	width:38px;  
+	width:30px;  
 	height:100%;  
-	padding:23px 9px;
+	padding:21px 7px;
 	background: url(../images/hnz-nav-out-bg.jpg) no-repeat 0 center;
+	background-size:30px 30px;
 }
 .min-nav-btn .min-nav-more img{
+	width:15px;
 	display: block;
 }
 .min-nav-btn .min-nav-logo{
 	line-height: 0;
-	height: 50px;
+	height: 40px;
 	margin:5px 0;
 }
 .min-nav-btn .min-nav-logo img{
@@ -199,14 +203,19 @@ body{
 }
 .min-nav-bar div{
 	float:left;
-	height: 38px;
-	width: 38px;
-	padding:8px;
+	height: 30px;
+	width: 30px;
+	padding:7px;
 	margin-left:10px;
 	background: url(../images/hnz-nav-out-bg.jpg) no-repeat 0 0;
+	background-size:30px 30px;
+}
+.min-nav-bar div img{
+	width: 15px;
 }
 .min-nav-bar div:active,.min-nav-more:active,.min-nav-more.active{
 	background: url(../images/hnz-nav-over-bg.jpg) no-repeat 0 center;
+	background-size:30px 30px;
 }
 .min-nav-list{
 	width:100%;
@@ -265,13 +274,12 @@ body{
 	width:40px;
 }
 .hnz-banner-btn{
-	width:1300px;
+	width:100%;
+	padding:0 4%;
 	height: 0px;
 	position: absolute;
 	z-index: 9999;
 	top:50%;
-	left: 50%;
-	margin-left:-650px;
 	margin-top: -30px;
 }
 .hnz-banner-btn .hnz-left,.hnz-banner-btn .hnz-right{
@@ -311,9 +319,7 @@ body{
 }
 .course .course-icon{
 	display: block;
-	max-width:100px;
 	width:100%;
-	max-height:100px;
 	border-radius: 50%;
 }
 .course li:nth-child(1) .course-icon{
@@ -359,8 +365,213 @@ body{
 }
 /*课程体系结束*/
 
+/*学生作品开始*/
+.student-works-out{
+	border-top: 1px solid #e8e8e8;
+	width: 100%;
+	height: 1760px;
+	background: #f7f7f7 url(../images/hnz-student-works-bg.jpg) no-repeat center bottom;
+	position: relative;
+}
+.xiangpi{
+	width: 190px;
+	height: 100px;
+	position: absolute;
+	background: url(../images/hnz-xiangpi.png) no-repeat 0 0;
+	top:-60px;
+	right:5%;
+}
 
-@media screen and (min-width: 640px) {
+.student-top .s-t img{
+	height: 100%;
+	float: left;
+}
+.student-more{
+	float: right;
+	margin-top: 64px;
+	width:136px;
+	height: 28px;
+	text-align: center;
+	line-height: 28px;
+	font-size: 14px;
+}
+.student-more .s-m-l{
+	float: left;
+	width:108px;
+	height:28px;
+	border:1px solid #d3d3d3;
+	border-right:0;
+	color:#888888;
+}
+.student-more .s-m-l b{
+	font-weight: bold;
+}
+.student-more .s-m-r{
+	float: right;
+	width: 28px;
+	height: 28px;
+	background: #f66b1f;
+	color:#fff;
+}
+.student-top .s-b{
+	height: 34px;
+	color:#9f9f9f;
+	font-size: 20px;
+	line-height: 34px;
+}
+.student-top .s-b span{
+	float: left;
+	width: 120px;
+	letter-spacing: 8px;
+	height: 100%;
+}
+.student-top .s-b-r{
+	float: right;
+	width:89%;
+	margin-top: 22px;
+	border-top:1px solid #ddd;
+	position: relative;
+}
+.student-top .s-b-r:before,.student-top .s-b-r:after{
+	content: '';
+	position: absolute;
+	width:5px;
+	height:5px;
+	top:-3px;
+	border-radius: 50%;
+	background: #ddd;
+}
+.student-top .s-b-r:before{
+	left:0;
+}
+.student-top .s-b-r:after{
+	right: 0;
+}
+.student-lists{
+	
+}
+.stu-l-t{
+	height: 170px;
+	text-align: center;
+}
+.stu-l-t a{
+	display: inline-block;
+	padding-left:15px;
+	padding-top: 10px;
+	text-align: left;
+	margin:52px 26px;
+	width:115px;
+	height: 66px;
+}
+.stu-l-t span{
+	display: block;
+	line-height: 20px;
+	height:20px;
+}
+.stu-l-t .zh{
+	font-size: 18px;
+	color:#898989;
+}
+.stu-l-t .en{
+	font-size: 14px;
+	color:#c0c0c0;
+}
+.stu-l-list{
+	padding:0 10px;
+}
+.student-lists ul{
+	display: none;
+}
+.student-lists ul:first-child{
+	display: block;
+}
+.stu-l-list li{
+	padding:5px;
+	height: 393px;
+	position: relative;
+	overflow: hidden;
+}
+.stu-l-list li:nth-child(9)~li{
+	display: none!important;
+}
+.stu-l-list li:hover .stu-l-info{
+	opacity: 1;
+}
+.stu-l-list img{
+	width: 100%;
+}
+.stu-l-info{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top:0;
+	left:0;
+	padding:5px;
+	text-align: center;
+	opacity: 0;
+	transition: opacity .4s;
+	-webkit-transition: opacity .4s;
+}
+.stu-l-info img{
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	top:0;
+	margin:100px auto 0;
+	left:0;
+	right: 0; 
+}
+.stu-l-info b{
+	position: absolute;
+	top:170px;
+	display: block;
+	width: 100%;
+	font-size: 22px;
+	color:#fff;
+}
+.stu-l-info p{
+	position: absolute;
+	top:220px;
+	padding:0 60px;
+	font-size: 14px;
+	line-height: 1.5;
+	color: #e3e3e3;
+}
+.stu-time{
+	position: absolute;
+	top:290px;
+	display: block;
+	width: 100%;
+	color: #a7aeb8;
+}
+.stu-line{
+	position: absolute;
+	display: block;
+	width: 30px;
+	top:210px;
+	margin:0 auto;
+	left:0;
+	right: 0;
+	border-top:1px solid #fff;
+}
+.info-bg{
+	background-clip:content-box ;
+	opacity: 0.8;
+	width: 100%;
+	height: 100%;
+	background: #364659;
+}
+.hnz-stu-hot{
+	background: url(../images/hnz-stu-navbg.jpg) no-repeat 0 0; 
+}
+.hnz-stu-hot .zh{
+	color:#fff;
+}
+.hnz-stu-hot .en{
+	color:#a8d5fd;
+}
+/*学生作品结束*/
+@media screen and (min-width: 769px) {
 	.max-nav{
 		display: block;
 	}
@@ -376,7 +587,6 @@ body{
 		z-index: 99;
 	}
 	
-
 	/*banner*/
 	.hnz-banner-box{
 		height:710px;
@@ -442,8 +652,13 @@ body{
 		padding:55px;
 	}
 	.course .course-icon{
+		display: block;
+		max-width:100px;
+		width:100%;
 		height: 100%;
 		margin:40px auto 0;
+		max-height:100px;
+		border-radius: 50%;
 	}
 	.course li{
 		height:416px;
@@ -464,21 +679,34 @@ body{
 		font-size: 20px;
 		margin:40px 0 20px;
 	}
+	/*学生作品*/
+	.student-inner{
+		height:1500px;
+	}
+	.student-top{
+		margin-top: 63px;
+		height: 126px;
+	}
+	.student-top .s-t{
+		height: 92px;
+		overflow: hidden;
+	}
 }
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 768px) {
 	.max-nav{
 		display: none;
+	}
+	.nav-box{
+		height:50px;
+		background-color: #212e3e;	
+		position: relative;
+		z-index: 99999;
 	}
 	.min-nav{
 		height: 100%;
 		display: block;
 	}
-	.nav-box{
-		height:60px;
-		background-color: #212e3e;	
-		position: relative;
-		z-index: 99999;
-	}
+	
 
 	.hnz-banner-box{
 		width: 100%;
@@ -527,16 +755,164 @@ body{
 		width: 60%;
 	}
 	.course .course-icon{
-		height:auto;
+		/*height:100%;*/
 		padding-top:100%;
 		margin:10px auto;
 	}
 	.course h3{
-		font-size: 16px;
+		font-size: 14px;
 		margin:20px 0;
 	}
 	.course span,.course p,.course .course-more{
 		display: none;
+	}
+	.course li:active .course-icon{
+		box-sizing: border-box;
+		border:0px solid #fff;
+		padding-top:100%;
+		box-shadow: 0 0 0 4px  #ddd;
+	}
+	.course li:active h3{
+		color:#999;
+	}
+	/*学生作品*/
+	.student-inner{
+		height:auto;
+		padding:0 10px;
+	}
+	.student-lists{
+		overflow: hidden;
+		margin-top:15px;
+	}
+	.student-top{
+		margin-top:0px;
+		height: 50px;
+		position: relative;
+	}
+	.student-top .s-t{
+		margin-top: 20px;
+		height: 50px;	
+		overflow: hidden;
+	}
+	.student-top .s-b{
+		height: 15px; 
+    	font-size: 16px;
+    	line-height: 0px; 
+	}
+	.student-top .s-b span{
+		position: absolute;
+		top:0;
+		height:20px;
+		line-height: 20px;
+		left:70px;
+		letter-spacing: 4px;
+	}
+	.student-top .s-b-r {
+	    float: left;
+	    width: 100%;
+	    margin-top: 10px;
+	    border-top: 1px solid #ddd;
+	    position: relative;
+	}
+
+	.student-more{
+		float: right;
+		margin-top: 22px;
+		width:90px;
+		height: 25px;
+		text-align: center;
+		line-height: 25px;
+		font-size: 12px;
+	}
+	.student-more .s-m-l{
+		float: left;
+		width:65px;
+		height:25px;
+		border:1px solid #d3d3d3;
+		border-right:0;
+		color:#888888;
+	}
+	.student-more .s-m-l b{
+		font-weight: bold;
+	}
+	.student-more .s-m-r{
+		float: right;
+		width: 25px;
+		height: 25px;
+		background: #f66b1f;
+		color:#fff;
+	}
+	.stu-l-t {
+		width: 100%;
+		padding-top:7px;
+	    height: 60px;
+	}
+	.stu-l-t a{
+		padding-left:0px;
+		padding-top: 0px;
+		text-align: center;
+		margin:2px 0px;
+		width:19%;
+		height: 45px;
+	}
+	.stu-l-t span{
+		line-height: 16px;
+		height:16px;
+	}
+	.hnz-stu-hot {
+		color:#fff;
+		border-radius: 5px;
+		background: #4498fe;
+		background-size: auto 100%;
+	}
+	.hnz-stu-hot .zh{
+		color:#fff!important;
+	}
+	.hnz-stu-hot .en{
+		color:#ddd!important;
+	}
+	.stu-l-t .zh{
+		margin-top:10px;
+		font-size: 12px;
+		color:#898989;
+	}
+	.stu-l-t .en{
+		font-size: 10px;
+		color:#c0c0c0;
+	}
+
+	.stu-l-list li{
+		height: auto;
+	}
+	.stu-l-list li:nth-child(8)~li{
+		display: none!important;
+	}
+	.stu-l-info img{
+		width: 25px;
+		height: 25px;
+		margin:20% auto 0; 
+	}
+	.stu-l-info b{
+		top:35%;
+		font-size: 16px;
+	}
+	.stu-l-info p{
+		top:48%;
+		padding:0 15px;
+		font-size: 12px;
+		line-height: 1.25;
+	}
+	.stu-time{
+		top:80%;
+	}
+	.stu-line{
+		display: none;
+	}
+	.student-works-out{
+		height: auto;
+		padding-bottom: 50px;
+		background: #f7f7f7 url(../images/hnz-student-works-bg.jpg) no-repeat center bottom;
+		background-size: 160%;
 	}
 }
 /*导航结束*/
