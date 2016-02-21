@@ -57,21 +57,13 @@ a:hover{
 .lx_student{
     margin-bottom: 30px;
 }
-.mask{
-    width:100%;
-    height:100%;
-    background: rgba(0,0,0,0.2);
-    position: absolute;
-    left:0;
-    top:0;
-}
 .lx_student a{
     width:100%;
-    height: 413px;
+    height: auto;
     padding:10px 10px 0;
     background:#ffffff;
     /*box-shadow:0 0 5px #B9B9B9 ;*/
-    /*border-bottom:3px solid #459bfd;*/
+    border-bottom:3px solid #f7f7f7;
 }
 .lx_student a:active {
     box-shadow:0 0 5px #B9B9B9 ;
@@ -164,8 +156,8 @@ a:hover{
     }
     /*学院*/
     .lx_student a{
-        height:370px;
-        overflow: hidden;
+        height:auto;
+        
     }
     .lx_student_left .lx_student_name{
         font-size: 16px;

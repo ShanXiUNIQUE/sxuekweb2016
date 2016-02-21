@@ -14,4 +14,6 @@ $(function(){
     $(".lx_pageTurn1").css("width",widths);
 
 
+
+
 })
