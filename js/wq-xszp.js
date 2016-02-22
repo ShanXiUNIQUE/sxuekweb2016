@@ -50,7 +50,6 @@ $(function(){
           e.preventDefault()
           else
           e.returnValue="false"
-       
           var top=parseInt(mask.css("top"))
           var maskheight=parseInt(mask.css("height"))
           if(top>windowheight-maskheight){
