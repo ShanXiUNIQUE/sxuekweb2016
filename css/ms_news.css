@@ -9,7 +9,7 @@
 	border-bottom:1px solid #D8D8D8;
 }
 .ms-shadow{
-	width: 30px;
+	width:30px;
 	position:absolute;
 	left:-30px;
 	top:75px;
@@ -122,6 +122,9 @@
 	padding:10px 0 0 0;
 }
 @media screen and (max-width:768px ) {
+	.ms-shadows{
+		display:none;
+	}
 	.hidden-xs{
 		display: none;
 	}
