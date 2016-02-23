@@ -63,7 +63,8 @@ a:hover{
     padding:10px 10px 0;
     background:#ffffff;
     /*box-shadow:0 0 5px #B9B9B9 ;*/
-    border-bottom:3px solid #f7f7f7;
+    border-bottom: 3px solid #ffffff;
+
 }
 .lx_student a:active {
     box-shadow:0 0 5px #B9B9B9 ;
