@@ -65,8 +65,9 @@ a:hover{
     color:#3a3838;
 }
 .lx_page1 .lx_gongsi_item{
-    height: 200px;
+    height: auto;
     position: relative;
+    padding-bottom: 15px;
 }
 .lx_shu{
     position:absolute;
@@ -90,14 +91,15 @@ a:hover{
 }
 .lx_heng{
     position:absolute;
-    bottom: 8px;
-    left: 10px;
+    bottom: 2px;
+    left: 15px;
 }
 /* lx_page1 结束*/
 @media all and (max-width:768px){
     /* lx_head 高度 */
     .lx_head{
         height:80px;
+        margin-bottom: 25px;
     }
     /*  lx_head 标题字体大小 */
     .lx_title{
@@ -111,7 +113,7 @@ a:hover{
 
     /*每一个公司高度 */
     .lx_page1 .lx_gongsi_item{
-        height: 165px;
+        height: auto;
         position: relative;
     }
     /* 每一个公司竖线 */

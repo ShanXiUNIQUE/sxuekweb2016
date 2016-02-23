@@ -144,6 +144,7 @@ a:hover{
     /* lx_head 高度 */
     .lx_head{
         height:80px;
+        margin-bottom: 25px;
     }
     /*  lx_head 标题字体大小 */
     .lx_title{
