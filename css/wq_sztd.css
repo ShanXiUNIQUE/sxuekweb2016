@@ -1,9 +1,10 @@
 .wq-outline{
 	width:100%;height:1px;background:#4f6f78;
+	margin-bottom: 16px;
 }
 .wq-inline{
 	width:54px;height:3px;position: relative;top:-1px;
-	background-color: #d2d2d2;
+	background-color: #d2d2d2;left:-15px;
 }
 .wq-techerpic img{ 
   width:100%;
@@ -59,9 +60,6 @@
 	background-size: contain;
 	background-clip: padding-box;
    }	
-   .wq-sztd-more{
-   
-   }
    .wq-sztd-inbg{
 	background:#fff;position: relative;
    }
@@ -71,7 +69,7 @@
   }
   .wq-techerpic{
 	background:#ccc;
-	margin-left: -15px;
+	/*margin-left: -15px;*/
 	margin-right: -15px;
   }
   .wq-techerint h3{
