@@ -3,6 +3,7 @@
 	height:100px;
 	background-image: url(../images/ms_about.png);
 	background-repeat: no-repeat;
+	background-size: cover;
 	margin:10px 0;
 }
 body{
@@ -105,25 +106,25 @@ body{
 	.ms-about{
 	width:100%;
 	height:80px;
-	background-image: url(../images/ms_about_xiangying.png);
+	background-image: url(../images/ms_about.png);
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size:cover;
 	margin:10px 0;
 	}
 	.ms-huanjing{
 	width:100%;
 	height:80px;
-	background-image: url(../images/ms_huanjing_xiangying.png);
+	background-image: url(../images/ms_huanjing.png);
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size:cover;
 	margin:10px 0;
 	}
 	.ms-lianxi{
 		width:100%;
 		height:80px;
-		background-image: url(../images/ms_lianxi_xiangying.png);
+		background-image: url(../images/ms_lianxi.png);
 		background-repeat: no-repeat;
-		background-size: 100%;
+		background-size:cover;
 		margin:10px 15px;
 	}
 	.ms-col-center{
