@@ -1,83 +1,3 @@
-/*就业明星开始*/
-.wlh-starbox{
-	width: 100%;
-	height: auto;
-	position: relative;
-	background-color:#f7f7f7;
-	background-image:url(../images/wlh-jymxtitle.jpg);
-	background-size: 1920px 190px;
-	background-position:top center;
-	background-repeat: no-repeat;
-}
-.wlh-anniubox{
-	margin-top: 190px;
-	text-align: right;
-	position: relative;
-	z-index: 1;
-}
-.wlh-anniu{
-	width: 136px;
-	height: 27px;
-	background: #474950;
-	line-height: 27px;
-	display: inline-block;
-}
-.wlh-anniu p{
-	float: left;
-}
-.wlh-anniu-one{
-	text-align: left;
-	color:#fff;
-	width: 108px;
-	height: 27px;
-	padding-left: 5px;
-}
-.wlh-anniu-two{
-	text-align: center;
-	color:#fff;
-	width: 28px;
-	height: 27px;
-	background: #f43915;
-	font-size: 18px;
-}
-
-.wlh-starbanner{
-	height: 557px; 
-	position: relative;
-	overflow: hidden;
-}
-.wlh-starimgbox{
-	width: 3600px;
-	height: 100%;
-}
-
-.wlh-starbg1{
-	width: 572px;
-	height: 347px;
-	background-image:url(../images/wlh-jymxbg1.jpg);
-	position: absolute;
-	left: 0;
-	top:190px;
-}
-.wlh-starbg2{
-	width: 717px;
-	height: 161px;
-	background-image:url(../images/wlh-pen.jpg);
-	position: absolute;
-	right: 0;
-	top:0px;
-}
-.wlh-starbg3{
-	width: 336px;
-	height: 250px;
-	background-image:url(../images/wlh-jymxbg2.jpg);
-	position: absolute;
-	right: 0px;
-	bottom:70px;
-}
-/*就业明星结束*/
-
-
 
 /*wlh-底部开始*/
 .wlh-footerbox{
@@ -217,22 +137,7 @@
 }
 /*wlh-底部结束*/
 
-@media screen and (max-width: 768px) {
-
-
-    /*就业明星开始*/
-    .wlh-anniubox{
-    	margin-top: 190px;
-		text-align: center;
-	}
-	.wlh-starbanner{
-		height:400px;
-	}
-	.wlh-starimgbox{
-		width: 2304px;
-		height: 100%;
-	}
-    /*就业明星结束*/
+@media screen and (max-width: 768px) {   
 
 	/*wlh-底部开始*/
 	.wlh-footerbox{

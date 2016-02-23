@@ -1,0 +1,246 @@
+/*就业明星开始*/
+.wlh-starbox{
+	width: 100%;
+	height: auto;
+	position: relative;
+	background-color:#f7f7f7;
+	/* background-color: #000; */
+	background-image:url(../images/wlh-jymxtitle.jpg);
+	background-size: 1920px 190px;
+	background-position:top center;
+	background-repeat: no-repeat;
+}
+.wlh-anniubox{
+	margin-top: 190px;
+	text-align: right;
+	position: relative;
+	z-index: 1;
+}
+.wlh-anniu{
+	width: 136px;
+	height: 27px;
+	background: #474950;
+	line-height: 27px;
+	display: inline-block;
+}
+.wlh-anniu p{
+	float: left;
+}
+.wlh-anniu-one{
+	text-align: left;
+	color:#fff;
+	width: 108px;
+	height: 27px;
+	padding-left: 5px;
+}
+.wlh-anniu-two{
+	text-align: center;
+	color:#fff;
+	width: 28px;
+	height: 27px;
+	background: #f43915;
+	font-size: 18px;
+}
+
+.wlh-starbanner{
+	height: 480px; 
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+	margin-top: 30px;
+	margin-bottom: 30px;
+    border-bottom: 1px solid #d1d9cf;    
+	padding-bottom: 20px;
+}
+.wlh-starbtn{
+	width: 58px;
+	height: 11px;
+	position: absolute;
+	left:47%;
+	bottom:20px;
+	z-index: 3;
+}
+.wlh-btn{
+	width: 11px;
+	height: 11px;
+	border-radius: 50%;
+	background: #bebebe;
+	float: left;
+	margin-right:11px;
+	cursor: pointer;
+	/* box-shadow:  1px 0px 1px rgb(0,0,0) inside; */ 
+}
+.wlh-btn:hover{
+	position: relative;
+	background: #296afa;
+	width: 13px;
+	height: 13px;
+}
+
+.wlh-starinnerbox{
+	width: 1200px;
+	height: 480px;
+	position: absolute;
+	left: 0px;
+	top:0px;
+}
+.wlh-starbg1{
+	width: 572px;
+	height: 347px;
+	background-image:url(../images/wlh-starbg1.jpg);
+	position: absolute;
+	left: 0;
+	top:190px;
+}
+.wlh-starbg2{
+	width: 717px;
+	height: 161px;
+	background-image:url(../images/wlh-pen.jpg);
+	position: absolute;
+	right: 0;
+	top:0px;
+}
+.wlh-starbg3{
+	width: 336px;
+	height: 250px;
+	background-image:url(../images/wlh-starbg2.png);
+	position: absolute;
+	right: 0px;
+	bottom:70px;
+}
+
+.lx_student{
+    margin-bottom: 30px;
+}
+
+.wlh-starxiao{
+	height:auto;
+	/* border:5px solid #fff; */
+	border-bottom: none;
+	position: relative;
+}
+.wlh-starxiao-bottom{
+    width:127px;
+    height: 6px;
+    background-image: url(../images/wlh-henxian.jpg);
+    background-repeat: no-repeat;
+    position: absolute;
+    left:30%;
+    bottom: -52px;
+    z-index: 3;
+    display: none;
+}
+.lx_student a{
+    width:100%;
+    height: auto;
+    background:#ffffff;
+}
+.lx_student a:active {
+    box-shadow:0 0 5px #B9B9B9 ;
+    border-bottom:3px solid #459bfd;
+}
+.lx_student a:active .lx_student_introduce{
+    background:none;
+}
+.lx_student img{
+    width:100%;
+    display: block;
+    margin:0 auto;
+    border: 5px solid #fff;
+}
+.lx_student_introduce{
+    background:#f7f7f7;
+    height:auto;
+    padding: 10px;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box; /* Firefox */
+    -webkit-box-sizing:border-box; /* Safari */
+    border-bottom: 5px solid #fff;
+}
+.lx_introduce_top{
+   height:auto;
+   overflow: hidden;
+
+}
+.lx_student:hover .lx_student_introduce{
+	background:#fff;
+	border-bottom: 5px solid #459bfd;
+}
+.lx_student:hover .wlh-starxiao-bottom{
+	display: block;
+}
+.lx_student_left{
+    float: left;
+}
+.lx_student_left .lx_student_name{
+    font-size: 24px;
+    color:#565656;
+}
+.lx_student_left .lx_student_direction{
+    font-size: 14px;
+    color:#8d8d8d;
+}
+.lx_student_salary{
+    float: right;
+    margin-top:20px;
+    color:#357dcf;
+    font-size: 28px;
+}
+.lx_introduce_bottom{
+    color:#616161;
+    font-size:12px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+
+}
+/*就业明星结束*/
+
+
+@media screen and (max-width: 768px) {
+
+
+    /*就业明星开始*/
+    .wlh-anniubox{
+    	margin-top: 190px;
+		text-align: center;
+	}
+	.wlh-starbg1{
+		display: none;
+	}
+    .wlh-starbg3{
+		display: none;
+	}
+	.wlh-starbanner{
+		height:960px;
+	}
+	.wlh-starinnerbox{
+		width: 768px;
+		height: 960px;
+	}
+    .lx_student:hover .wlh-starxiao-bottom{
+		display: none;
+	}
+	.lx_student a{
+        height:auto;
+    }
+    .lx_student_left .lx_student_name{
+        font-size: 16px;
+    }
+    .lx_student_left .lx_student_direction{
+        font-size: 10px;
+        color:#8d8d8d;
+    }
+    .lx_student_salary{
+        font-size: 14px;
+    }
+    .lx_student_work{
+        font-size: 14px;
+    }
+    .lx_student_company{
+        font-size: 12px;
+
+    }
+    /*就业明星结束*/
+
+	
+}
