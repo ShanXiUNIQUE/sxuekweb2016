@@ -613,4 +613,164 @@ body{
 }
 /*导航结束*/
 
+/*教师团队开始*/
+.wq-outline{
+	width:100%;height:1px;background:#4f6f78;
+	margin-bottom: 16px;
+}
+.wq-inline{
+	width:54px;height:3px;position: relative;top:-1px;
+	background-color: #d2d2d2;left:-15px;
+}
+.wq-techerpic img{ 
+  width:100%;
+}
 
+.wq-techerint:hover{
+	background:url(../images/wq-jsint.jpg);
+    background-clip:content-box;
+}
+.wq-techerint h3{
+	font-size: 24px;
+	color:#5a5a5a;
+	margin-top: 30px;
+	margin-left: 30px;
+}
+.wq-techerint h4{
+	font-size: 16px;
+	color:#a0a0a0;
+	margin-left:30px;
+}
+.wq-techerint .wq-zhiwei{
+	margin-top: 58px;
+	color:#8e8e8e;
+	margin-left: 30px;
+}
+.wq-techerint .wq-int{
+	color:#8f8f8f;
+	font-size: 12px;
+	margin-top: 20px;
+	margin-left: 30px;
+}
+.wq-techerint .wq-count{
+    margin-top: 26px;
+    font-size: 26px;
+    color:#979797;
+    margin-left: 30px;
+}
+@media screen and (max-width:768px){
+	.col-xs-8{
+	float:right;	
+	}
+	.col-xs-4{
+	float:left;
+	}
+   .wq-sztdbg{
+	width:100%;
+	padding-top:1px; 
+	position:relative;
+   }
+    .wq-sztd-title{
+	padding-top:50%; 
+	background:url(../images/wq-xstdtitle-xs.jpg) no-repeat center;
+	background-size: contain;
+	background-clip: padding-box;
+   }	
+   .wq-sztd-inbg{
+	background:#fff;position: relative;
+   }
+    .wq-techerint{
+    background:#fff;
+	padding:6px;
+  }
+  .wq-techerpic{
+	background:#ccc;
+	/*margin-left: -15px;*/
+	margin-right: -15px;
+  }
+  .wq-techerint h3{
+	font-size: 24px;
+	color:#5a5a5a;
+	margin-top:1rem;
+	margin-left:1rem;
+}
+.wq-techerint h4{
+	font-size: 16px;
+	color:#a0a0a0;
+	margin-left:1rem;
+}
+.wq-techerint .wq-zhiwei{
+	margin-top: 1rem;
+	color:#8e8e8e;
+	margin-left: 1rem;
+}
+.wq-techerint .wq-int{
+	color:#8f8f8f;
+	font-size: 12px;
+	margin-top:0.5rem;
+	margin-left:1rem;
+}
+.wq-techerint .wq-count{
+    display: none;
+}
+}
+@media screen and (min-width:768px){
+  .wq-sztdbg{
+	width:100%;height:1054px;
+	padding-top:1px; 
+	background:url(../images/wq-sztdbg.jpg) center;
+	background-size:cover; 
+	position: relative;
+  }	
+  .wq-sztd-title{
+	height:165px;margin-top: 132px;
+	background:url(../images/wq-sztd-title.png) no-repeat;
+   }
+   .wq-sztd-more{
+	height:165px;margin-top: 132px;
+   }
+   .wq-sztd-inbg{
+	background:#f7f7f7;position: relative;
+   }
+   .wq-techerint{
+  height:300px;background:#f7f7f7;
+	margin-left: -15px;
+	margin-right: -15px;
+	padding:6px;
+  }
+  .wq-techerpic{
+	height:300px;background:#ccc;
+	margin-left: -15px;
+	margin-right: -15px;
+	/*padding: 6px;*/
+  }
+  .wq-techerint h3{
+	font-size: 24px;
+	color:#5a5a5a;
+	margin-top: 30px;
+	margin-left: 30px;
+}
+.wq-techerint h4{
+	font-size: 16px;
+	color:#a0a0a0;
+	margin-left: 30px;
+}
+.wq-techerint .wq-zhiwei{
+	margin-top: 58px;
+	color:#8e8e8e;
+	margin-left: 30px;
+}
+.wq-techerint .wq-int{
+	color:#8f8f8f;
+	font-size: 12px;
+	margin-top: 20px;
+	margin-left: 30px;
+}
+.wq-techerint .wq-count{
+    margin-top: 26px;
+    font-size: 26px;
+    color:#979797;
+    margin-left: 30px;
+}
+}
+/*教师团队结束*/

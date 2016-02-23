@@ -117,7 +117,7 @@
 	background:#f7f7f7;position: relative;
    }
    .wq-techerint{
-  height:300px;background:#ccc;
+  height:300px;background:#f7f7f7;
 	margin-left: -15px;
 	margin-right: -15px;
 	padding:6px;
@@ -126,7 +126,7 @@
 	height:300px;background:#ccc;
 	margin-left: -15px;
 	margin-right: -15px;
-	padding: 6px;
+	/*padding: 6px;*/
   }
   .wq-techerint h3{
 	font-size: 24px;
