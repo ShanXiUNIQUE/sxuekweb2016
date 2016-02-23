@@ -1,17 +1,4 @@
 $(function(){
-	//导航 小屏 点击按钮显示 菜单列表
-	var minNavMore=$('.min-nav-more');
-	var minNavList=$('.min-nav-list');
-	var flag=true;
-	touch.on('.min-nav-more','tap',function(){
-		if(flag){
-			flag=false;
-			minNavList.css('height','auto');
-		}else{
-			flag=true;
-			minNavList.css('height','0')
-		}
-	})
 	//banner
 	var imgs=$('.hnz-banner img');
 	var clientW=$(window).width();
@@ -97,39 +84,11 @@ $(function(){
 		hnzT=setInterval(hnzWheel,3000);
 		ev.preventDefault();
 	});
-	touch.on(allLis, 'swiperight', function(ev){
-		
-	hnzWheelLeft();
-	console.log("向右滑动.");
+	touch.on(allLis, 'swiperight', function(ev){	
+		hnzWheelLeft();
 	});
 	touch.on(allLis, 'swipeleft', function(ev){
-	console.log("向左滑动.");
 		hnzWheel();
 	});
 
-	//学生作品
-	var stuLinks=$('.stu-l-t a');
-	stuLinks.each(function(i){
-		this.index=i;
-	})
-	var stuLists=$('.stu-l-list>ul');
-	touch.on('.stu-l-t a','tap', function(ev){
-		var Elm=this.nodeName=='SPAN'?this.parentNode:this;
-		stuLinks.removeClass("hnz-stu-hot");
-		$(Elm).addClass("hnz-stu-hot");
-		stuLists.css('display','none').eq(Elm.index).css("display",'block');
-	});
-
-	//stu-l-t
-	var stuLT=$('.stu-l-t');
-	touch.on(stuLT[0], 'touchstart', function(ev){
-		ev.preventDefault();
-	});
-	var ow=stuLT.width()-clientW;
-	touch.on(stuLT[0], 'swiperight', function(ev){
-		stuLT[0].style.left = "0px";
-	});
-	touch.on(stuLT[0], 'swipeleft', function(ev){
-		stuLT[0].style.left = -ow+'px';
-	});
 })

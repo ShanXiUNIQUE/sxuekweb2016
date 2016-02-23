@@ -1,0 +1,125 @@
+/*banner 开始*/
+.hnz-banner-box{
+	width: 100%;
+	overflow:hidden;
+	position: relative;
+}
+.hnz-banner li a{
+	display: block;
+	width: 100%;
+}
+
+.hnz-banner-index{
+	width:90px;
+	height: 10px;
+	position: absolute;
+}
+.hnz-banner-index li{
+	width:10px;
+	height: 10px;
+	background: #fff;
+	float:left;
+	margin-right:5px;
+	border-radius: 5px;
+	transition: width .3s;
+	-webkit-transition: width .3s;
+}
+.hnz-banner-index .hnz-banner-hot{
+	width:40px;
+}
+.hnz-banner-btn{
+	width:100%;
+	padding:0 4%;
+	height: 0px;
+	position: absolute;
+	z-index: 9999;
+	top:50%;
+	margin-top: -30px;
+}
+.hnz-banner-btn .hnz-left,.hnz-banner-btn .hnz-right{
+	width:50px;
+	height:50px;
+	border-radius: 50%;
+	background-color: #fff;
+	border:5px solid #29373D;
+	color:#333;
+	text-align: center;
+	line-height: 40px;
+	font-size: 32px;
+	font-family: '宋体';
+}
+.hnz-banner-btn .hnz-left{
+	float: left;
+}
+.hnz-banner-btn .hnz-right{
+	float: right;
+}
+.hnz-banner-btn span:hover{
+	cursor:pointer;
+	background-color: #398CFD;
+	border:5px solid #29373D;	
+	color:#fff;
+}
+/*banner 结束*/
+
+@media screen and (min-width: 769px) {	
+	/*banner*/
+	.hnz-banner-box{
+		height:710px;
+		position: relative;
+		border-bottom:4px solid #ef3f64;
+	}
+	.hnz-banner{
+		height: 710px;
+	}
+	.hnz-banner li{
+		position: absolute;
+		top:0;
+		left:0;
+		width:100%;
+		overflow: hidden;
+		height:710px;
+	}
+	.hnz-banner li img{
+		left:50%;
+		margin-left:-960px;
+		position: relative;
+	}
+	.hnz-banner li a{
+		display: block;
+		width: 100%;
+		height: 710px;
+	}	
+	.hnz-banner-index{
+		bottom:115px;
+		left:50%;
+		margin-left:-45px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.hnz-banner-box{
+		width: 100%;
+		height:auto;
+		border-bottom:0;
+		position: relative;
+	}
+	.hnz-banner{
+		width:100%;
+		padding-top:53.1%;
+		position: relative;
+	}
+	.hnz-banner li{
+		width:100%;
+		height:100%;
+		top:0;
+		position: absolute;
+	}
+	.hnz-banner li img{
+		display: block;
+		width: 100%;
+	}
+	.hnz-banner-index{
+		bottom:20px;
+		right:20px;
+	}
+}
