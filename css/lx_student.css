@@ -66,11 +66,11 @@ a:hover{
     border-bottom: 3px solid #ffffff;
 
 }
-.lx_student a:active {
-    box-shadow:0 0 5px #B9B9B9 ;
-    border-bottom:3px solid #459bfd;
+.lx_student a:hover {
+    /*box-shadow:0 0 5px #B9B9B9 ;*/
+    /*border-bottom:3px solid #459bfd;*/
 }
-.lx_student a:active .lx_student_introduce{
+.lx_student a:hover .lx_student_introduce{
     background:none;
 }
 .lx_student img{

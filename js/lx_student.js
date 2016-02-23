@@ -13,6 +13,11 @@ $(function(){
     var widths=widthA*lengthA+140
     $(".lx_pageTurn1").css("width",widths);
 
+   //lx_student
+    var a=$(".lx_student a");
+    for(var i=0;i<a.length;i++){
+        a[i].addEventListener('touchstart',function(){},false);
+    }
 
 
 
