@@ -44,7 +44,7 @@ body{
 	height:100px;
 	background-image: url(../images/ms_lianxi.png);
 	background-repeat: no-repeat;
-	margin:10px 15px;
+	margin:10px 0px;
 }
 .ms-col-center{
 	text-align: center;
@@ -125,7 +125,7 @@ body{
 		background-image: url(../images/ms_lianxi.png);
 		background-repeat: no-repeat;
 		background-size:cover;
-		margin:10px 15px;
+		margin:10px 0px;
 	}
 	.ms-col-center{
  	padding:10px 0;
