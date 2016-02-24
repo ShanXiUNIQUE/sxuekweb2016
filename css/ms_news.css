@@ -189,6 +189,9 @@
 	height:100%;
 	color:#7B8085;
 }
+.ms-page-select{
+	border:1px solid #FC3B16;
+}
 @media screen and (max-width:768px ) {
 	.ms-container{
 		margin-top: 0px;
@@ -206,21 +209,22 @@
 	font-size: 18px;
 	letter-spacing: 0px;
 }
-.ms-lis span{
-	font-family: "微软雅黑";
-	font-size: 12px;
-	text-transform: uppercase;
-	letter-spacing: -1px;
-}
-.ms-zhang-h1{
-	font-size: 18px;
-}
-.ms-page-lis{
-	display: none;
-}
-.ms-page{
-	margin-top:20px;
-}
+	.ms-lis span{
+		font-family: "微软雅黑";
+		font-size: 12px;
+		text-transform: uppercase;
+		letter-spacing: -1px;
+	}
+	.ms-zhang-h1{
+		font-size: 18px;
+	}
+	.ms-page-lis{
+		display: none;
+	}
+	.ms-page{
+		margin-top:20px;
+	}
+	
 }	    
 
 
