@@ -134,14 +134,72 @@
 	font-size:20px;
 	padding:10px 0 0 0;
 }
+
+/* 分页*/ 
+.ms-page{
+	width:100%;
+	margin-top:50px;
+	text-align: center;
+}
+.ms-pages{
+	width:auto;
+	height:auto;
+	display:inline-block;
+}
+.ms-prev{
+	width:70px;
+	height:30px;
+	background:#24548E;
+	display:inline-block;
+	font-size: 18px;
+	line-height: 30px;
+
+	color:#fff;
+	font-style: italic;
+}
+.ms-nest{
+	width:70px;
+	height:30px;
+	background:#F57813;
+	display:inline-block;
+	font-size: 18px;
+	line-height: 30px;
+	color:#fff;
+	font-style: italic;
+}
+.ms-nest a,.ms-prev a{
+	color:#fff;
+	display:inline-block;
+	width:100%;
+	height:100%;
+}
+.ms-page-lis{
+	width:32px;
+	height:30px;
+	display:inline-block;
+	line-height: 30px;
+	text-align: center;
+	margin:0 3px;
+	border:1px solid #CED4DB;
+	background:#EEF6FF;
+}
+.ms-page-lis a{
+	display: inline-block;
+	width:100%;
+	height:100%;
+	color:#7B8085;
+}
 @media screen and (max-width:768px ) {
+	.ms-container{
+		margin-top: 0px;
+	}
 	.ms-shadows{
 		display:none;
 	}
 	.hidden-xs{
 		display: none;
 	}
-	.ms-lis {
+	.ms-lis{
 		width:100%;
 	}
 	.ms-lis p{
@@ -156,6 +214,12 @@
 }
 .ms-zhang-h1{
 	font-size: 18px;
+}
+.ms-page-lis{
+	display: none;
+}
+.ms-page{
+	margin-top:20px;
 }
 }	    
 
