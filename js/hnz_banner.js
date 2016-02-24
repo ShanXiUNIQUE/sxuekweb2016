@@ -8,10 +8,8 @@ $(function(){
 		clientW=$(window).width();
 		imgs.attr('src',function(){
 			if(clientW>768){
-				console.log(1)
 				return $(this).attr('data-lg')
 			}else{
-				console.log(2)
 				return $(this).attr('data-xs')
 			}
 		})	
@@ -85,9 +83,11 @@ $(function(){
 		ev.preventDefault();
 	});
 	touch.on(allLis, 'swiperight', function(ev){	
+		ev.preventDefault();
 		hnzWheelLeft();
 	});
 	touch.on(allLis, 'swipeleft', function(ev){
+		ev.preventDefault();
 		hnzWheel();
 	});
 
