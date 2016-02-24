@@ -70,12 +70,12 @@
 	cursor: pointer;
 	/* box-shadow:  1px 0px 1px rgb(0,0,0) inside; */ 
 }
-.wlh-btn:hover{
+/* .wlh-btn:hover{
 	position: relative;
 	background: #296afa;
 	width: 13px;
 	height: 13px;
-}
+} */
 
 .wlh-starinnerbox{
 	width: 1200px;
@@ -155,7 +155,7 @@
     box-sizing:border-box;
     -moz-box-sizing:border-box; /* Firefox */
     -webkit-box-sizing:border-box; /* Safari */
-    border-bottom: 5px solid #fff;
+    border-bottom: 5px solid #f7f7f7;
 }
 .lx_introduce_top{
    height:auto;
@@ -210,12 +210,12 @@
     .wlh-starbg3{
 		display: none;
 	}
-	.wlh-starbanner{
-		height:960px;
+	.wlh-starinnerbox{
+		height: 900px;
 	}
 	.wlh-starinnerbox{
-		width: 768px;
-		height: 960px;
+		width: 100%;
+		height: 900px;
 	}
     .lx_student:hover .wlh-starxiao-bottom{
 		display: none;
