@@ -21,7 +21,6 @@ $(document).ready(function(){
     	this.x=wlh_row; 	
     	wlh_col++;
     })
-
 	 
     $(window).resize(function(){
     	wlh_w=$(".wlh-teacher-yiji-innerbox").eq(0).innerWidth();
@@ -32,16 +31,14 @@ $(document).ready(function(){
     var flag1=true;
     var x;
     if($(window).width()>768){
-
-        $(".wlh-teacher-yiji").click(function(){  
-
+        $(".wlh-teacher-yiji").click(function(){ 
             if(!flag1){
-    		 return;
-    	    }
-    	    flag1=false;
+	    		return;
+	    	}
+	    	flag1=false;
 			var index=$(this).index(".wlh-teacher-yiji"); 
 			x=this.x; 
-	        if(flag){
+	        if(flag){	        	
 			    wlh_hover.eq(index).css({
 			    	display:"block",
 			    	width:wlh_w+10+"px",
@@ -61,6 +58,7 @@ $(document).ready(function(){
 		        	flag1=true;
 		        });
 
+                $(".wlh-anniu").eq(index).css({background:"#2a9bf5"})
 		        wlh_blank.eq(index).css({width:wlh_w+10+"px",display:"block"})
 		        $(".wlh-teacher").eq(index).css({height:"1051px"});                             
 		        flag=false;	                
@@ -73,18 +71,17 @@ $(document).ready(function(){
 			            if(this.x==x){
 			                $(this).parents(".wlh-teacher").css({height:"242px"});
 			            }
+			            $(".wlh-anniu").eq(index).css({background:"#474950"})
 				    })
 				    flag1=true; 
 		        }); 		               
 		        flag=true;
-			}
-	              
+			}	              
 		})
+        $(".wlh-anniu").hover(function(){
+        	$(this).css({background:"#2a9bf5"})
+        },function(){
+        	$(this).css({background:"#474950"})
+        })
     }
-    
-
-    
-	
-
-
 })

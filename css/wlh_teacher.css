@@ -55,6 +55,7 @@ html,body{
 	margin-bottom:20px;	
 	cursor: pointer;
 }
+
 /*一级*/
 .wlh-teacher-yiji{
 	width:100%;
@@ -63,7 +64,7 @@ html,body{
 }
 .wlh-teacher-yiji-box{
 	position: relative;
-	z-index: 2;
+	z-index: 3;
 }
 .wlh-teacher-yiji-innerbox img{
 	width: 100%;
@@ -75,9 +76,30 @@ html,body{
     background: #fff;
     padding-top: 10px;
 }
+.wlh-teacher-anniu{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	padding-right:5px; 
+}
+
 .wlh-teacher-name{
 	padding-left: 5px;
     margin-bottom: 10px;
+    float: left;
+}
+.wlh-anniu{
+	width: 40px;
+	height: 25px;
+	background: #474950;
+	line-height: 25px;
+	display: inline-block;
+	float: right;
+	text-align: center;
+	color: #fff;
+}
+.wlh-anniu:hover{
+	background: #2a9bf5;
 }
 .wlh-teacher-job{
 	padding-left: 5px;
@@ -153,7 +175,7 @@ html,body{
 	left: -5px;
 	bottom:-12px;
 	background: #fff;
-	z-index: 3;
+	z-index: 4;
 	height: 10px;
 }
 
