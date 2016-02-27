@@ -63,7 +63,7 @@ $(function(){
      mask.click(function(){
       $(this).remove()
      }) 
-
+     //touch.on()
 	}) 
 function mousewheel(obj,upfun,downfun){
     if(obj.addEventListener){
